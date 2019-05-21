@@ -9,5 +9,7 @@
 # value types according to the spec
 
 class CreateCostumes
+  def change
 
+  end
 end
