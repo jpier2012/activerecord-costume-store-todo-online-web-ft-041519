@@ -13,7 +13,7 @@ class CreateCostumes
     create_table :costumes do |t|
       t.string :name
       t.integer :price
-      t.image_url :image_url
+      t.string :image_url
       t.size :size
       t.datetime :created_at
       t.datetime :updated_at
