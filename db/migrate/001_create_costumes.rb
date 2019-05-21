@@ -14,7 +14,7 @@ class CreateCostumes
       t.string :name
       t.integer :price
       t.string :image_url
-      t.size :size
+      t.string :size
       t.datetime :created_at
       t.datetime :updated_at
     end
